@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { useNavigate } from 'react-router-dom'
 import { getWhiskies, createWhisky, deleteWhisky } from '../api/whiskies'
-import { lookupBarcode } from '../api/whiskies'
 import LabelScanner from '../components/LabelScanner'
 
 export default function Whiskies() {
