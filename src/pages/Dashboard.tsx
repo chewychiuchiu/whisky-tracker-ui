@@ -69,7 +69,7 @@ export default function Dashboard() {
         </h2>
 
         {filtered.length === 0 ? (
-          <p className="text-gray-400 text-sm">No bourbons found. Add one in the Whiskies page first.</p>
+          <p className="text-gray-400 text-sm">No bourbons in your collection yet. Click <strong>Add Bourbon</strong> to get started!</p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {filtered.map(whisky => (

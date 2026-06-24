@@ -2,7 +2,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 
 const links = [
-  { to: '/', label: 'Dashboard' },
+  { to: '/', label: 'My Collection' },
   { to: '/whiskies', label: 'Add Bourbon' },
 ]
 
